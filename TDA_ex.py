@@ -14,7 +14,7 @@ import itertools
 
 os.chdir('input_directory') #indicate directory where data.mat file is stored
 path = os.getcwd()
-mat = scipy.io.loadmat('data.mat')  #.mat file where matrix variable is stored
+mat = scipy.io.loadmat('data.mat')  #.mat MATLAB file where matrix variable is stored
 
 mat = mat['data'] #same as filename if matrix variable name was saved with the same name in matlab
 
